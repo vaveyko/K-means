@@ -3,15 +3,6 @@ import matplotlib.pyplot as plt
 from usefull import distance, is_equal, DotsClass
 from MaxiMin import MaxiMin
 
-"""
-1) Глобальные переменные
-2) 32, 42 строка
-
-"""
-
-
-
-
 class KMean:
 
     def __init__(self, dot_count, class_count, is_normal_generation=False, is_maximin_use=False):
